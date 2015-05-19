@@ -1,39 +1,41 @@
-section {
-  overflow: hidden;
-  width: 40%;
+* {
+  box-sizing: border-box;
 }
 
-h1 {
+main {
+  margin: 40px auto;
+  width: 40%;
+  border: 2px solid #00C6D6;
+}
+
+section {
+  overflow: hidden;
+}
+
+h2 {
   color: #fff;
   background: #00C6D6;
   margin: 0;
   padding: 10px;
-  border: 2px solid #00C6D6;
 }
 
-h1:hover {
+h2:hover {
   background: #00DAEC;
   cursor: pointer;
 }
 
 p {
-  z-index: -1;
   color: #777;
   margin: 0;
+  padding: 10px;
   height: 100px;
-  border: 2px solid #00C6D6;
+}
+
+.accordion {
+  height: 100px;
   transition: all 0.2s ease-in;
 }
 
-#par2 {
-
-}
-
-#par3 {
-
-}
-
 .hide {
-  padding: 0px;
   height: 0px;
 }
