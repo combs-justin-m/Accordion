@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: Helvetica;
 }
 
 main {
@@ -13,6 +14,7 @@ section {
 }
 
 h2 {
+  font-weight: 200;
   color: #fff;
   background: #00C6D6;
   margin: 0;
