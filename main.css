@@ -30,14 +30,13 @@ p {
   color: #777;
   margin: 0;
   padding: 10px;
-  height: 100px;
 }
 
 .accordion {
-  height: 100px;
+  height: 0px;
   transition: all 0.2s ease-in;
 }
 
-.hide {
-  height: 0px;
+.show {
+  height: 100px;
 }
