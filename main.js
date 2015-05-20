@@ -10,4 +10,4 @@ $('.accordion:first').removeClass('hidden');
 
 $('main').on('click', 'h2', function(){
   $(this).next().removeClass('hidden').parent().siblings().find('.accordion').addClass('hidden');
-});`
+});
