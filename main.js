@@ -1,5 +1,8 @@
 
+$('.accordion').addClass('hidden');
+$('.accordion:first').removeClass('hidden');
+
 $('section').on('click', function (){
-  $('.accordion').removeClass('show');
-  $(this).find($('.accordion')).addClass('show');
+  $('.accordion').addClass('hidden');
+  $(this).find($('.accordion')).removeClass('hidden');
 });

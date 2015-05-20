@@ -33,10 +33,10 @@ p {
 }
 
 .accordion {
-  height: 0px;
+  height: 100px;
   transition: all 0.2s ease-in;
 }
 
-.show {
-  height: 100px;
+.hidden {
+  height: 0px;
 }
